@@ -25,6 +25,7 @@ my $builder = Module::Build::Pluggable->new(
     needs_compiler       => 1,
     c_source             => 'src',
     extra_compiler_flags => [ '-x', 'c++' ],
+    extra_linker_flags   => ['-lstdc++'],
     xs_files             => { './src/Spooky.xs' => './lib/Digest/SpookyHash.xs' },
     add_to_cleanup       => [
         'Digest-SpookyHash-*', 'lib/Digest/*.c', 'lib/Digest/*.h', 'lib/Digest/*.xs',
@@ -35,7 +36,7 @@ my $builder = Module::Build::Pluggable->new(
     create_readme  => 1,
     create_license => 1,
     meta_add       => {
-        keywords  => [qw//],
+        keywords  => [qw/spooky spookyhash hash/],
         resources => { bugtracker => 'https://github.com/hideo55/Digest-SpookyHash/issues', },
     },
 );
