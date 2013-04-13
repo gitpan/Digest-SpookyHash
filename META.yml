@@ -35,7 +35,7 @@ no_index:
 provides:
   Digest::SpookyHash:
     file: lib/Digest/SpookyHash.pm
-    version: 0.03
+    version: 0.04
 requires:
   Exporter: 0
   XSLoader: 0.02
@@ -44,6 +44,6 @@ resources:
   bugtracker: https://github.com/hideo55/Digest-SpookyHash/issues
   homepage: https://github.com/hideo55/p5-Digest-SpookyHash/tree
   repository: git://github.com/hideo55/p5-Digest-SpookyHash.git
-version: 0.03
+version: 0.04
 x_test_requires:
   Test::More: 0.98
