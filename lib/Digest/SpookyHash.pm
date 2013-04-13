@@ -1,11 +1,12 @@
 package Digest::SpookyHash;
 use strict;
 use warnings;
+use 5.008008;
 use base qw(Exporter);
 use XSLoader;
 
 BEGIN {
-    our $VERSION = '0.04';
+    our $VERSION = '0.05';
     XSLoader::load __PACKAGE__, $VERSION;
 }
 
