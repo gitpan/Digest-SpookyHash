@@ -60,7 +60,7 @@
    "provides" : {
       "Digest::SpookyHash" : {
          "file" : "lib/Digest/SpookyHash.pm",
-         "version" : "1.02"
+         "version" : "1.03"
       }
    },
    "release_status" : "stable",
@@ -74,7 +74,7 @@
          "web" : "https://github.com/hideo55/p5-Digest-SpookyHash"
       }
    },
-   "version" : "1.02",
+   "version" : "1.03",
    "x_contributors" : [
       "hideo55 <hide.o.j55@gmail.com>"
    ]

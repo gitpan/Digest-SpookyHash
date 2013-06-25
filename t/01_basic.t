@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 use Test::More;
+use Config;
 use Digest::SpookyHash qw(spooky32 spooky64 spooky128);
 
 no warnings 'portable';
