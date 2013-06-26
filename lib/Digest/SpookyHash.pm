@@ -6,7 +6,7 @@ use base qw(Exporter);
 use XSLoader;
 
 BEGIN {
-    our $VERSION = '1.03';
+    our $VERSION = '1.04';
     XSLoader::load __PACKAGE__, $VERSION;
 }
 
@@ -45,7 +45,7 @@ This module provides an interface to SpookyHash(SpookyHash V2) functions.
 
 B<This module works only in the environment which supported a 64-bit integer>.
 
-B<This module will compute different results on little endian machines and big-endian machines>
+B<This module works only in little endian machine>.
 
 =head1 FUNCTIONS
 
